@@ -34,10 +34,10 @@ The fields scrapped are,
 | Birth_year        | Date	                            | Date of birth of the poet                             |
 | Death_year        | Date	                            | Date of death of the poet                             |
 | Categories        | List of Short Text	            | A list of genres covered by the poet                  |
-| Poem              | Long Text	                        | A poem written by poet                                  |
 | Bio               | Long Text	                        | A brief description of the poet and his work          |
+| Poem              | Long Text	                        | A poem written by the poet                            |
+| Quote	            | Long Text                         | A popular quotation written or said by the poet       |
 | Similar_poets     | List of Short Text	            | A list of poets whose work is similar to the poet     |
-| Quote	            | Long Text                         | A popular quotation from a popular poem written by the poet   |
 
 
 290 documents are collected, stemmed, tokenized and indexed using elasticsearch.
